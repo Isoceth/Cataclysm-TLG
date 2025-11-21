@@ -509,7 +509,7 @@ float npc::evaluate_character( const Character &candidate, bool my_gun, bool ene
             // later we should evaluate if the NPC trusts the player enough to stick to them so reliably
             int dist = rl_dist( pos_bub(), candidate.pos_bub() );
             if( dist > mem_combat.formation_distance ) {
-                mem_combat.formation_distance = std::max( dist, mem_combat.engagement_distance );
+                mem_combat.formation_distance = std::min( std::max( dist, mem_combat.engagement_distance ), 10 );
             }
         }
     }
