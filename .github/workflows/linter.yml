@@ -1,3 +1,4 @@
+workflow: .
 name: Code Style Reviewer
 
 on:

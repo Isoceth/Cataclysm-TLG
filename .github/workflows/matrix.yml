@@ -1,3 +1,4 @@
+workflow: .
 name: General build matrix
 
 on:

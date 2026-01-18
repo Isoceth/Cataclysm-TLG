@@ -1,3 +1,4 @@
+workflow: .
 name: Cataclysm Windows build
 
 on:

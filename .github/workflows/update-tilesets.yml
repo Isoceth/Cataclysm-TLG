@@ -1,3 +1,4 @@
+workflow: .
 name: "Pull Tileset Updates"
 
 on:

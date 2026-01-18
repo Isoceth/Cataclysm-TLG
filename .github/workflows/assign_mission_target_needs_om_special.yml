@@ -1,3 +1,4 @@
+workflow: .
 name: Detect missions that are missing .start.assign_mission_target.om_special
 
 on:

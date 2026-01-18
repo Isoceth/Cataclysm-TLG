@@ -1,3 +1,4 @@
+workflow: .
 name: Check printf format string in translations
 
 on:

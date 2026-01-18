@@ -1,3 +1,4 @@
+workflow: .
 name: Clang-tidy 17
 
 on:

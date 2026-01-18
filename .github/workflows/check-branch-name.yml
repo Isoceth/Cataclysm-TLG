@@ -1,3 +1,4 @@
+workflow: .
 name: Check pull request head branch name
 
 on:

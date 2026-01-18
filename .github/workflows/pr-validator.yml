@@ -1,3 +1,4 @@
+workflow: .
 name: PR Validator
 on:
   pull_request:

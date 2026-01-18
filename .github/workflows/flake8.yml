@@ -1,3 +1,4 @@
+workflow: .
 name: Flake8 Python linting
 
 on:
